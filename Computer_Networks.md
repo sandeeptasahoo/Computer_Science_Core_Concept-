@@ -93,3 +93,44 @@ IoT networking
 Cloud networking
 QUIC protocol
 6G basics
+
+### Data Flow
+1. simplex :
+   Unidirectional communication.
+   One device transmits, and the other device receives.
+   ex: keyboard 
+2. Half duplex :
+   Communication is in both directions, but not at the  same time.
+   If one device is sending, the other can only receive, and vice versa.
+   example: walkie-talkies 
+3. Full duplex :
+   communication is in both directions simultaneously.
+
+### Elements of protocol 
+1. message encoding
+2. message formatting and encapsulation
+3. message timing
+4. message size
+5. message delivery options
+   a. Unicast: when the sender sends data to a single targeted system.   
+   b. Multicast: when the sender sends data to more than one targeted system.  
+   c. Broadcast: when the sender sends data to all devices without knowing the target.
+
+### Components of a computer network
+1. Nodes:
+   1. end node
+   2. intermediary node:
+      1. switches
+      2. wireless access point
+      3. routers
+      4. security devices (firewall)
+      5. bridges
+      6. hubs
+      7. repeaters
+      8. cell tower 
+3. Media
+4. Services
+   
+
+
+   
