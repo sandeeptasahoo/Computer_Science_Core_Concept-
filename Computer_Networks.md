@@ -94,7 +94,7 @@ Cloud networking
 QUIC protocol
 6G basics
 
-### Data Flow
+## Data Flow
 1. simplex :
    Unidirectional communication.
    One device transmits, and the other device receives.
@@ -106,7 +106,7 @@ QUIC protocol
 3. Full duplex :
    communication is in both directions simultaneously.
 
-### Elements of protocol 
+## Elements of protocol 
 1. message encoding
 2. message formatting and encapsulation
 3. message timing
@@ -116,7 +116,7 @@ QUIC protocol
    b. Multicast: when the sender sends data to more than one targeted system.  
    c. Broadcast: when the sender sends data to all devices without knowing the target.
 
-### Components of a computer network
+## Components of a computer network
 1. Nodes:
    1. end node
    2. intermediary node:
@@ -130,7 +130,48 @@ QUIC protocol
       8. cell tower 
 3. Media
 4. Services
+
+## classification of computer network 
+1. LAN: Local Area Network:
+2. MAN: Metropolitan area network:
+3. WAN: Wide Area network
+4. Internet
+
+## topology 
+### Bus topology  
+   <img width="1516" height="872" alt="image" src="https://github.com/user-attachments/assets/a9078a4f-a5e5-48bd-bdc4-e20ee66af215" />       
    
+### Ring topology  
+   <img width="588" height="600" alt="image" src="https://github.com/user-attachments/assets/1a410b77-2185-4327-acee-00389a0279a8" />  
+   
+### Start topology   
+   <img width="1080" height="864" alt="image" src="https://github.com/user-attachments/assets/010e03b4-1768-4a6c-85c6-9cb13e209587" />  
+   
+### Tree topology
+   <img width="625" height="468" alt="image" src="https://github.com/user-attachments/assets/adc5343b-0278-4dc4-adb6-676cb1e4c352" />  
+   
+### Mesh topology
+   <img width="768" height="549" alt="image" src="https://github.com/user-attachments/assets/d973c835-253b-412b-92b1-1b0a7c7199b3" />  
+   
+### Hybrid topology 
+   <img width="1070" height="558" alt="image" src="https://github.com/user-attachments/assets/fe8473e1-113e-436d-a319-ee91b1df07db" />  
+   
+### comparison
+Bus: Cheap, simple, unreliable    
+Star: Easy management, central dependency  
+Ring: Ordered access, low fault tolerance  
+Mesh: High reliability, costly  
+Tree: Scalable, backbone dependent  
+Hybrid: Flexible, complex  
+
+## Address 
+1. IP address: Internet Protocol:  used by the router to forward the data, changes based on location
+2. MAC address: Media Access Control: used by the switch to forward the data, does not change based on location
+3. PORT address: used to reach to right process in a computer
+
+   
+   
+
 
 
    
