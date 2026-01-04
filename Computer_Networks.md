@@ -167,10 +167,91 @@ Hybrid: Flexible, complex
 ## Address 
 1. IP address: Internet Protocol:  used by the router to forward the data, changes based on location
 2. MAC address: Media Access Control: used by the switch to forward the data, does not change based on location
-3. PORT address: used to reach to right process in a computer
+3. PORT address: used to reach the right process in a computer
 
-   
-   
+## switching techniques  
+Switching is the technique used to transfer data from a source to a destination through intermediate network nodes (switches).  
+
+1. Circuit Switching  
+   A dedicated physical path is established between sender and receiver before data transfer starts.  
+   No data loss once connection is established  
+   Reliable for real-time communication  
+   Wastes resources when idle   
+2. Message Switching (Store-and-Forward)  
+   Entire message is sent to an intermediate node, stored, then forwarded.  
+   Message stored fully before forwarding   
+   Not suitable for real-time communication  
+   Early telegraph systems  
+3. Packet Switching  
+   Data is divided into small packets, each sent independently through the network.  
+   Possible packet loss or reordering  
+   Scalable  
+   Types:
+   1. Datagram Packet Switching (connectionless)  
+      Each packet can take a different path  
+      No prior connection setup  
+   2. Virtual Circuit Packet Switching (connection-oriented)  
+      Logical path is established  
+      All packets follow the same route  
+
+   ## OSI model
+   The OSI (Open Systems Interconnection) Model is a 7-layer reference framework developed by International Organization for Standardization to standardize how data is transmitted over a network.
+   It's a guideline, not a protocol. 
+   ### Order of layers
+   <img width="713" height="768" alt="image" src="https://github.com/user-attachments/assets/c900c9a7-ed3e-4cdc-96f4-c0097ae6b8a0" />
+
+   1. Application layer  
+      Provides network services directly to user applications.  
+      Key Functions:  
+      1. File transfer  
+      2. Email  
+      3. Web services  
+   2. Presentation layer  
+      Formats and translates data for the application layer.  
+      Key Functions:     
+      1. Data encryption/decryption == SSL/TLS encryption      
+      2. Data compression    
+      3. Format translation (ASCII, JPEG, MP  
+   3. Session layer  
+      Manages sessions (connections) between applications.  
+      Key Functions:  
+      1. Session establishment  
+      2. Session maintenance  
+      3. Session termination  
+      4. Checkpointing
+      5. dialogue control
+   4. Transport layer  
+      Ensures reliable or fast delivery of data.  
+      Key Functions:  
+      1. Segmentation & reassembly  
+      2. Flow control   
+      3. Error control  
+      4. TCP (reliable) UDP (fast, unreliable)  
+   5. Network layer  
+      Determines the best path for data delivery.  
+      Key Functions:  
+      1. Logical addressing (IP)  
+      2. Routing  
+      3. Packet forwarding  
+   6. data link layer
+      Ensures error-free transfer between adjacent nodes.  
+      Key Functions:  
+      1. Framing   
+      2. MAC addressing  
+      3. Error detection  
+      4. Flow control  
+   7. physical layer  
+       Transmits raw bits over a physical medium.  
+       Key Functions:  
+       1. Bit transmission  
+       2. Voltage levels  
+       3. Cable types  
+       4. Data rate
+
+### packet construction and transmission
+<img width="634" height="369" alt="image" src="https://github.com/user-attachments/assets/83b1d543-1922-4771-aa17-40bac032d569" />
+
+
 
 
 
