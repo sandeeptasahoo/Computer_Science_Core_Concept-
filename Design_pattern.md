@@ -206,3 +206,28 @@ Data modeling
 Bottleneck analysis
 Trade-off explanation
 
+
+# Structural design pattern 
+## ADAPTER PATTERN
+### Why adapter class is used ? 
+### where it should not be used and why? 
+It will create processing over head 
+### Difference between class adapter and object adapter? 
+
+## BRIDGE
+### why bridge pattern is used ?
+### what is inheritance explosion ?
+
+## Composite 
+
+## Decorater class 
+whats the difference between Decorater class and composite class 
+
+## Facade pattern 
+
+
+
+
+
+
+
