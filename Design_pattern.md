@@ -225,6 +225,10 @@ whats the difference between Decorater class and composite class
 
 ## Facade pattern 
 
+## The flyweight 
+
+## Proxy pattern 
+
 
 
 
