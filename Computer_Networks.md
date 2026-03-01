@@ -251,6 +251,17 @@ Switching is the technique used to transfer data from a source to a destination 
 ### packet construction and transmission
 <img width="634" height="369" alt="image" src="https://github.com/user-attachments/assets/83b1d543-1922-4771-aa17-40bac032d569" />
 
+### TCP suits 
+<img width="1536" height="1024" alt="ChatGPT Image Mar 1, 2026, 01_19_15 PM" src="https://github.com/user-attachments/assets/fe9ceecc-f1d3-40b4-9aca-551ebffdc2e8" />
+
+### protocol DATA unit 
+1. Unit at the application layer = Data
+2. Unit at the transmission layer = Segment
+3. Unit at the Network layer = Packet
+4. Unit at the internet layer = Frame
+5. Unit at the physical layer = Bits
+
+
 
 
 
