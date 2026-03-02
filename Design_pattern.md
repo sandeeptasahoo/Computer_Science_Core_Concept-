@@ -206,8 +206,12 @@ Data modeling
 Bottleneck analysis
 Trade-off explanation
 
+# Creational design pattern 
+It helps to manage object instantiation, giving encapulation to user.
+
 
 # Structural design pattern 
+it helps to manage class relationship and hierarchies 
 ## ADAPTER PATTERN
 ### Why adapter class is used ? 
 ### where it should not be used and why? 
@@ -229,7 +233,8 @@ whats the difference between Decorater class and composite class
 
 ## Proxy pattern 
 
-
+# Behavioral 
+tells us about how object will interact between eachother.
 
 
 
