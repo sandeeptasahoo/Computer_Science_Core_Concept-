@@ -131,6 +131,53 @@ QUIC protocol
 3. Media
 4. Services
 
+### Hubs
+when hubs receives a PDU it does not care about destinnation cpu 
+it sends data to all the cpu connected to hub 
+cpu then reject the PDU which is not targeted to it 
+
+pros:
+cheaper than switches
+works good for smaller network 
+
+cons: 
+issue with broadcast 
+No memory 
+normally runs in half duplex mode 
+
+### switch 
+switch has a memory which it used to store mac address table 
+its a layer 2 device for setting up lan 
+when switch receives a PDU it do a unicast and send to exact destination cpu (different from hubs) 
+switch works in full duplex mode 
+switch mostly do broadcast to all cpu in 1st time communication 
+
+### router 
+A router is a networking device that forwards data packets between computer networks 
+its a layer 3(network layer) device 
+stores routing table 
+on pc the gateway address represent router interface ip address
+the PDU it receives it changes its mac address to reach the destination 
+first time communication over router mostly gets fail 
+(reason : When a device sends a packet for the first time, it may not know the MAC address of the next hop (router)
+The first packet may be dropped or delayed. The second packet succeeds.)    
+
+### repeater 
+repeater regenerates the signal over the same network to improve signal strength 
+it operates at physical layer 
+do not amplify the signal 
+it has 2 ports 
+
+### bridge 
+bridge is a repeater having additional capability of reading mac addresses
+its a layer 2 device 
+it can interconnect two lans on same protocol 
+it has only 2 port 
+
+transparent bridges : in this system stations are unaware of existance of bridge existence 
+source rounting bridge : its router + repeater 
+
+
 ## classification of computer network 
 1. LAN: Local Area Network:
 2. MAN: Metropolitan area network:
@@ -260,6 +307,8 @@ Switching is the technique used to transfer data from a source to a destination 
 3. Unit at the Network layer = Packet
 4. Unit at the internet layer = Frame
 5. Unit at the physical layer = Bits
+
+
 
 
 
