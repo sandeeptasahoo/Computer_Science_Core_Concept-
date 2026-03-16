@@ -1,4 +1,4 @@
-PHASE 0: Foundations & Prerequisites
+[PHASE 0: Foundations & Prerequisites
 Goal: Build thinking required for large-scale systems
 
 0.1 Basics You Must Know
@@ -208,6 +208,12 @@ Trade-off explanation
 
 # Creational design pattern 
 It helps to manage object instantiation, giving encapulation to user.
+## abstract factory pattern 
+## Builder patter 
+## prototype 
+Clone vs deep clone 
+## singleton 
+
 
 
 # Structural design pattern 
@@ -236,7 +242,34 @@ whats the difference between Decorater class and composite class
 # Behavioral 
 tells us about how object will interact between eachother.
 
+## Chain of responsibility 
+here an object is created having single responsibility and can be modify its behavior to taking that responsibility 
+then create a chain of such object which will execute entire work and if failure happens at any step, the chain will exit from that point. 
+ex: discover devices -> diagnose devices -> recover devices 
 
+## command pattern 
+if multiple commands are need to be executed and for each command new object is needed to create,
+encapsulate it in a command class where single method can execute the class
+the user need not to create the object 
+it just need to pass parameter 
+command class should execute the command 
+user should not know how the execution is completed 
 
+## mediator pattern 
+  mediator will handle triggering or link between multiple components 
+  diagnosis can be said as a mediator which handles different type of diagnosis 
 
+## Observer pattern 
+subscriber pattern 
 
+## Interpeter pattern 
+
+## state pattern 
+
+## strategy pattern 
+
+## Template method pattern 
+
+## visitor pattern 
+
+](https://github.ecodesamsung.com/iot-hub/calm-connection-core/pull/1365)
