@@ -272,4 +272,11 @@ subscriber pattern
 
 ## visitor pattern 
 
+## iterator pattern 
+
+## memnto pattern
+
+## null object pattern 
+
+
 ](https://github.ecodesamsung.com/iot-hub/calm-connection-core/pull/1365)
