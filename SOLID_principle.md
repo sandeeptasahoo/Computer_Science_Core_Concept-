@@ -14,3 +14,13 @@ what is duck typing ?
 ## Open/closed
 class should be open for extension 
 close for modification
+
+## Dependency inversion 
+
+## single responsibility principle 
+### controller 
+### creator
+### high cohesion
+### Indirection 
+### information expert
+### pure fabrication 
